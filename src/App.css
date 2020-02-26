@@ -1,0 +1,353 @@
+.head{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  background: hsla(0,0%,100%,.98) ;
+  transition: box-shadow .25s ease 0s;
+}
+.headbar{
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  width: 268px;
+  height: 33px;
+  margin-top: 33px;
+}
+.head_link{
+  
+  position: relative;
+  float: right;
+}
+.dropdown{
+  
+  display:none;
+  position :absolute;
+  
+
+}
+.dropdown {    height: 200;
+  width: 179px;
+  background: white;
+  position: absolute;
+  list-style: none;
+   left: -133px;
+}
+.drop:hover .dropdown{
+  display:flex;
+  flex-direction:column
+}
+.drop{
+  position:relative
+}
+.headlink{
+  display: flex;
+  list-style: none;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 2em;
+  padding: 1.33em 0;
+}
+.headlink a{
+  display: block;
+  text-decoration: none;
+  padding: 0 .6em;
+  color: #ababab;
+  
+}
+
+.headlink a:hover{
+  color: #00ccb1;
+}
+.section1{
+  
+  margin: 200px 30px 20px 300px;
+  
+  
+  padding: 0 20px;
+ 
+  position: relative;
+}
+.lead__logo {
+  display: block;
+  margin: 50px 400px;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+  margin-left: 77px;
+}
+.parag{
+  
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.para{
+  margin: 10 15;
+}
+p{
+  margin: .8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #747474;
+}
+.section2{
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  
+ 
+  display: flex;
+}
+.cader1{
+  background: #00ccb1;
+  width: 50%;
+  border-radius: 10px;
+  padding: 1.375em 2.5em 0;
+  overflow: hidden;
+  min-height: 1px;
+ 
+  margin: 10px;
+}
+.cader2{
+  background: #3d83df;
+  width: 50%;
+  border-radius: 10px;
+  padding: 1.375em 2.5em 0;
+  overflow: hidden;
+  min-height: 1px;
+  
+  margin: 10px;
+}
+.image {
+  width: 100%;
+  margin-left: 40%;
+  margin-top: -2.3em; 
+}
+.img2{
+  margin-top: 1em;
+
+
+}
+svg:hover{
+  fill :#00ccb1;
+}
+img{
+max-width: 100%;
+  height: auto;}
+.section2 h2{
+  font-size: .875em;
+  font-weight: 400;
+  margin: 0;
+  color: hsla(0,0%,100%,.7);
+  letter-spacing: .3px;
+}
+.section2 h1 {
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: .3em;
+  margin-left: 0px;
+}
+.lien{
+  max-width: 1015px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+
+}
+.lien h1{
+
+      float: left;
+      width: 33%;
+      font-size: 1.625em;
+      margin: .25em 0 .35em;
+      padding-right: 1em;
+
+}
+.logos {
+  float: left;
+  font-size: 0;
+  width: 67%;
+  list-style: none;
+
+}
+.logos li {
+  font-size: 1rem;
+  display: inline-block;
+  width: 148px;
+  padding: 5px 0;
+
+  color: #c04b4b;     
+}
+
+  .logos a svg {
+      height: 20px;
+      width: auto;
+      max-width: 100%;
+      padding-left: 10px;}
+      .affich{
+
+          background: #e5faf8;
+          background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+          padding: 1.875em 0 .625em;
+          overflow: hidden;
+          margin: 3.125rem auto 5.5rem;
+          display: flex;
+          margin-bottom: -12px;
+      }
+      .back{
+          background: #e5faf8;
+          background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+          padding: 1.875em 0 .625em;
+          overflow: hidden;
+          margin: 3.125rem auto 5.5rem;
+          display: flex;
+      }
+      .style-select {
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          outline: 0;
+          border: 0;
+          border-radius: 4px;
+          background: #3d83df;
+          font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+          color: #333;
+          background: #fff;
+          font-weight: 600;
+          letter-spacing: .04em;
+          font-size: .75rem;
+          text-align: center;
+          text-decoration: none;
+          transition: all .2s ease 0s;
+          cursor: pointer;}
+     .in_affich1{
+      max-width: 1015px;
+      padding: 0 20px;
+      margin: 0 auto;
+      position: relative;
+     }
+  .logoo{
+      height: 545px;
+      width: 580px;
+   position: absolute;
+      padding: 55px;
+  }
+  .carro1{
+      margin-top:26px;
+  }
+  .caro{
+      
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+      height: 250px;
+      text-align: center;
+      padding: 15px;
+      font-size: .8125em;
+      height: 186px;
+  width: 150px;
+  margin: 30px;
+  }
+  .in_affich2{
+      display: flex;
+  }
+  .headfoo{
+      zoom: 1;
+      max-width: 612px;
+      padding: 0px 20px;
+      margin: 4px auto;
+      align-content: center;
+  }
+  
+  .headfoo h1{
+      color: #00b39b;
+      text-align: center;
+  
+  }
+  .txth1{
+      text-align: center;
+  }
+
+
+
+  .headfoo p{
+  text-align: center;
+  }
+  .photo{
+      text-decoration: none;
+  }
+.photoclas{
+  
+  zoom: 1;
+  max-width: 1015px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 270px;
+  padding: 15px;
+
+}
+  .carte{
+      border: 1px solid rgba(19, 19, 20, 0.03);
+     
+  }
+  .office__image {
+     margin: 0em;
+border-left: 2px;
+  }
+  .office__desc {
+      font-size: 1.125em;
+      font-weight: 400;
+      line-height: 1.666667;
+      padding: 1.111111em;
+      text-decoration: none;
+  }
+  .btn {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      outline: 0;
+      border: 0;
+      border-radius: 4px;
+      padding: 1.1666666667em 1.5em;
+      background: #3d83df;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      line-height: 1em;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: .75rem;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all .2s ease 0s;}
+      .btn--small {
+          font-size: .625rem;
+          padding: 1em 1.5em;
+          margin-left: 77px;
+      }
+      .carte:hover{
+          -webkit-box-shadow: 2px 4px 34px -5px rgba(0,0,0,0.75);
+          -moz-box-shadow: 2px 4px 34px -5px rgba(0,0,0,0.75);
+          box-shadow: 2px 4px 34px -5px rgba(0,0,0,0.75); }
+      .main-footer {  
+          border-top: 1px solid #eef2f2;
+          font-size: .75em;
+          color: #ababab;
+          text-align: center;
+          padding: 1em 0;
+      }
+
+          
